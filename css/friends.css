@@ -1,0 +1,41 @@
+.friends {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.friends .friends__avatar{
+  width:50px;
+  border-radius: 37%;
+}
+.friends .friends__column{
+  display: flex;
+  align-items: center;
+}
+.friends__content .friends__name{
+  display: block;
+  margin-bottom: 5px;
+}
+.friends .g-avatar{
+  width:70px;
+  border-radius: 37%;
+}
+
+.friends .friends__content{
+  margin-left:15px;
+}
+.m-avatar{
+  width:60px;
+  border-radius: 37%;
+}
+.friends__content .friends__bottom-text{
+  opacity: 0.6;
+  font-size:14px;
+}
+.friends__content .friends__status,
+.friends__column .chat__timespamp
+{
+  opacity: 0.6;
+  font-size:12px;
+}
