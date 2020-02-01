@@ -27,3 +27,16 @@ body {
 a{
   color: inherit;
 }
+@keyframes updown{
+  from{
+    transform: translateY(50);
+    opacity: 0;
+  }
+  to{
+    transform: none;
+    opacity: 1;
+  }
+}
+main{
+  animation: updown 0.5s ease-in-out;
+}
